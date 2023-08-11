@@ -21,6 +21,10 @@ public class Customer {
 	private String email;
 	private long mobileno;
 	private long alternatemobileno;
+
+	public void git(){
+		System.out.println("git tutorial");
+	}
 	public int getCid() {
 		return cid;
 	}
